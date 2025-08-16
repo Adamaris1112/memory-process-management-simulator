@@ -1,5 +1,4 @@
 package simulator;
-
 import SimulatorGUI;
 
 public class Main {
