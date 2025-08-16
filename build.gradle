@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+application {
+    mainClassName = 'simulator.Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jetbrains:annotations:20.1.0'
+    implementation 'javax.swing:swing:1.0.0'
+}
+
+test {
+    useJUnitPlatform()
+}
