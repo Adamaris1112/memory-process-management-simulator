@@ -1,6 +1,6 @@
 package simulator;
 
-import simulator.gui.SimulatorGUI;
+import SimulatorGUI;
 
 public class Main {
     public static void main(String[] args) {
